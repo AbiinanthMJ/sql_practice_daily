@@ -43,3 +43,4 @@ INSERT INTO employee VALUES(12,'John','ADMIN',2200000);
 INSERT INTO employee VALUES(13,'Abinaya','ENGINEER',2100000);
 
 SELECT * FROM EMPLOYEE;
+-- commit change test--
