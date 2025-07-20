@@ -1,0 +1,45 @@
+Create a new database
+CREATE DATABASE IF NOT exists myfirstdatabase;
+
+-- Select the new database
+USE myfirstdatabase;
+
+-- Create the STUDENT table
+CREATE TABLE STUDENT (
+    ID INT PRIMARY KEY,
+    NAME VARCHAR(30),
+    GPA DECIMAL(3,2)
+);
+-- ALTER TABLE STUDENT ADD COLUMN DEPARTMENT VARCHAR(30);
+-- Display the structure of the STUDENT table
+INSERT INTO STUDENT VALUES(
+      1,"ABIINANTH",8.11
+);
+INSERT INTO STUDENT VALUES(
+      2,"SIBIRAJ",6.21
+);
+INSERT INTO STUDENT VALUES(
+      3,"ABIINANTH",7.11
+); 
+-- Where clause is used to filter out the 
+USE EMPLOYE;
+CREATE TABLE employee (
+emp_id INT PRIMARY KEY,
+ename VARCHAR(30),
+job_desc VARCHAR(20),
+salary INT );
+INSERT INTO employee VALUES(1,'Ram','ADMIN',1000000);
+INSERT INTO employee VALUES(2,'Harini','MANAGER',2500000);
+INSERT INTO employee VALUES(3,'George','SALES',2000000);
+INSERT INTO employee VALUES(4,'Ramya','SALES',1300000);
+INSERT INTO employee VALUES(5,'Meena','HR',2000000);
+INSERT INTO employee VALUES(6,'Ashok','MANAGER',3000000);
+INSERT INTO employee VALUES(7,'Abdul','HR',2000000);
+INSERT INTO employee VALUES(8,'Ramya','ENGINEER',1000000);
+INSERT INTO employee VALUES(9,'Raghu','CEO',8000000);
+INSERT INTO employee VALUES(10,'Arvind','MANAGER',2800000);
+INSERT INTO employee VALUES(11,'Akshay','ENGINEER',1000000);
+INSERT INTO employee VALUES(12,'John','ADMIN',2200000);
+INSERT INTO employee VALUES(13,'Abinaya','ENGINEER',2100000);
+
+SELECT * FROM EMPLOYEE;
