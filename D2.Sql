@@ -43,11 +43,11 @@ WHERE JOB_DESC="MANAGER";
 SELECT * FROM EMPLOYEE 
 WHERE JOB_DESC="JUNIOR";
 
-DELETE FROM  EMPLOYEE 
+DELETE FROM  EMPLOYEE  
 WHERE JOB_DESC="JUNNIOR";
 
 
-SELECT * FROM EMPLOYEE 
+
 
 -- to avoid the distint value in the query we use the distinct functions 
 
